@@ -46,6 +46,7 @@ tinycompress_cc_defaults {
 
 cc_library_shared {
     name: "libtinycompress",
+    defaults: ["extended_compress_format_defaults"],
     vendor: true,
     defaults: [
         "libtinycompress-defaults",
